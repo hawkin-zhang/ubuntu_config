@@ -1,0 +1,6 @@
+#!/bin/bash 
+export ARCH=arm
+export LOADADDR=0x12000000
+export CROSS_COMPILE=arm-linux-gnueabi-
+export PATH=/opt/hawkin/toolchain/arm-linux-gnueabiel/gcc-linaro-5.3.1-2016.05-x86_64_arm-linux-gnueabi/bin/:$PATH
+

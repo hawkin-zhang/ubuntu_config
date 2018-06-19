@@ -1,0 +1,6 @@
+#!/bin/bash 
+export ARCH=powerpc
+export LOADADDR=0x80008000
+export CROSS_COMPILE=powerpc-fsl-linux-gcc
+export PATH=/opt/hawkin/toolchain/powerpc/ppce500v2/sysroots/i686-fslsdk-linux/usr/bin/powerpc-fsl-linux:$PATH
+

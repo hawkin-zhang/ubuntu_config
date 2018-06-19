@@ -1,0 +1,6 @@
+#!/bin/bash 
+export ARCH=powerpc
+#export LOADADDR=0x12000000
+export CROSS_COMPILE=powerpc-linux-gnu-
+export PATH=/usr/bin/:$PATH
+

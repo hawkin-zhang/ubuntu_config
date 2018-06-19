@@ -1,0 +1,6 @@
+#!/bin/bash 
+export ARCH=arm
+export LOADADDR=0x12000000
+export CROSS_COMPILE=arm-fsl-linux-gnueabi-
+export PATH=/opt/hawkin/toolchain/imx6/fsl-linaro-toolchain/bin/:$PATH
+
