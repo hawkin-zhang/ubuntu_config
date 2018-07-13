@@ -7,6 +7,8 @@ export r710ip='172.28.5.190'
 alias ll='ls -alh'
 alias rs='source /home/$USER/.bashrc'
 alias ea='vi /home/$USER/.bash_aliases'
+alias home='cd /opt/hawkin'
+
 #ssh 
 alias ssv='ssh zhj@10.134.68.176'
 alias sss='ssh -p 2226 hawkin@10.134.67.176'
@@ -56,6 +58,8 @@ alias runarmv7el='source /home/$USER/config_file/.bash_armv7el'
 alias runarmv7hf='source /home/$USER/config_file/.bash_armv7hf'
 alias runarmv832='source /home/$USER/config_file/.bash_armv8_32'
 alias runarmv864='source /home/$USER/config_file/.bash_armv8_64'
+alias runforlink_imx6='source /home/$USER/config_file/.bash_forlink_imx6'
+alias runfslimx6='source /home/$USER/config_file/.bash_fsl_imx6'
 
 alias addrout='sudo route add default gw 172.28.96.254 eno1'
 
