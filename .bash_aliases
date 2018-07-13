@@ -3,6 +3,7 @@ export serverip='10.137.148.201'
 export ubuntuip='10.137.148.25'
 export mypcip='10.137.148.23'
 export r710ip='172.28.5.190'
+export vps='23.27.112.197'
 
 alias ll='ls -alh'
 alias rs='source /home/$USER/.bashrc'
@@ -13,7 +14,7 @@ alias home='cd /opt/hawkin'
 alias ssv='ssh zhj@10.134.68.176'
 alias sss='ssh -p 2226 hawkin@10.134.67.176'
 alias ssu='ssh hawkin@$ubuntuip'
-
+alias ssv='ssh hawkin@vps'
 #git command aliase
 alias gc='git clone '
 alias gck='git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git '
@@ -26,6 +27,7 @@ alias ftpln='ncftp -u hawkin -p sac 10.245.105.2 '
 alias ftpls='ncftp -u hawkin -p sac $mypcip'
 alias ftplu='ncftp -u hawkin -p sac $ubuntuip'
 alias ftplr='ncftp -u hawkin -p sac $r710ip'
+alias ftplv='ncftp -u hawkin -p hawkin $vps'
 
 #god command
 alias tmuxc='tmux new -s '
