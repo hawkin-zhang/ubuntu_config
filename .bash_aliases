@@ -61,7 +61,7 @@ alias runarmv7hf='source /home/$USER/config_file/.bash_armv7hf'
 alias runarmv832='source /home/$USER/config_file/.bash_armv8_32'
 alias runarmv864='source /home/$USER/config_file/.bash_armv8_64'
 alias runforlink_imx6='source /home/$USER/config_file/.bash_forlink_imx6'
-alias runfslimx6='source /home/$USER/config_file/.bash_fsl_imx6'
+alias rundrlimx6='source /home/$USER/config_file/.bash_drl600u'
 
 alias addrout='sudo route add default gw 172.28.96.254 eno1'
 
