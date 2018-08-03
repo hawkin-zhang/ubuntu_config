@@ -1,6 +1,6 @@
 #!/bin/bash 
 export ARCH=arm
 export LOAD_ADDR=0x10008000
-export CROSS_COMPILE=arm-fsl-linux-gnueabi-
-export PATH=/opt/hawkin/sac/drl600u/fsl-linaro-toolchain/bin/:$PATH
+export CROSS_COMPILE=arm-linux-gnueabihf-
+export PATH=/opt/hawkin/toolchain/drl600u/fsl-linaro-toolchain/bin/:$PATH
 
