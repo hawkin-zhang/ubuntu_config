@@ -8,7 +8,7 @@ export vps='23.27.112.197'
 alias ll='ls -alh'
 alias rs='source /home/$USER/.bashrc'
 alias ea='vi /home/$USER/.bash_aliases'
-alias home='cd /opt/hawkin'
+alias home='cd /opt/$USER'
 
 #ssh 
 alias ssv='ssh zhj@10.134.68.176'
