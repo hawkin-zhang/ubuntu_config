@@ -1,8 +1,8 @@
 #full additional package list
-additonal_package_type="additional_packages_ubunturfs additional_packages_tool additonal_packages_32 additonal_packages_yocto additonal_packages_python additonal_packages_opengl linux-tools-common"
+additonal_package_type="additional_packages_ubunturfs additional_packages_tool additonal_packages_32 additonal_packages_yocto additonal_packages_python additonal_packages_opengl"
 
 additional_packages_ubunturfs="git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf libssl-dev openssl python-pip flex bison bc qemu-utils libncurses5-dev python-crypto libpcap-dev binfmt-support qemu-system-common qemu-user-static debootstrap"
-additional_packages_tool="libssh-dev u-boot-tools  lrzsz htop tree libmount-dev  device-tree-compiler   libncurses5-dev libncursesw5-dev  sysstat libxcb.* mesa-utils kmod" 
+additional_packages_tool="libssh-dev u-boot-tools  lrzsz htop tree libmount-dev  device-tree-compiler   libncurses5-dev libncursesw5-dev  sysstat libxcb.* mesa-utils kmod linux-tools-common" 
 
 additonal_packages_32=" libssl-dev libsepol1-dev libpam0g-dev libmount-dev libffi-dev python-matplotlib graphviz-dev javacc w3m libsdl2-dev autoconf bzr mercurial-buildpackage mercurial libssh-dev lib32ncurses5 lib32z1"
 
