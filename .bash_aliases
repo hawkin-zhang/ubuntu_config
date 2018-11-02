@@ -1,7 +1,8 @@
 #!/bin/bash
 export serverip='10.137.148.201'
-export ubuntuip='10.137.148.25'
-export mypcip='10.137.148.23'
+export optiplex='10.137.148.224'
+export ubuntuip='10.137.148.223'
+export mypcip='10.137.148.222'
 export r710ip='172.28.5.190'
 export vps='23.27.112.197'
 
@@ -28,6 +29,9 @@ alias ftpls='ncftp -u hawkin -p sac $mypcip'
 alias ftplu='ncftp -u hawkin -p sac $ubuntuip'
 alias ftplr='ncftp -u hawkin -p sac $r710ip'
 alias ftplv='ncftp -u hawkin -p hawkin $vps'
+alias nfsr='sudo mount -t nfs -rw 172.28.5.190:/opt/hawkin /opt/hawkin/r720'
+alias nfst='sudo mount -t nfs -rw 10.137.148.223:/opt/hawkin /opt/hawkin/t400'
+alias nfsd='sudo mount -t nfs -rw 10.137.148.224:/opt/hawkin /opt/hawkin/optiplex'
 
 #god command
 alias tmuxc='tmux new -s '
