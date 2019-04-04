@@ -2,7 +2,7 @@
 export serverip='10.137.148.201'
 export Q6600ip='10.137.148.224'
 export t400ip='10.137.148.223'
-export mypcip='10.137.148.222'
+export mypcip='10.137.148.220'
 export r720ip='172.28.5.190'
 export vps='23.27.112.197'
 export config_folder='ubuntu_config'
