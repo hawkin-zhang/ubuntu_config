@@ -20,10 +20,11 @@ alias ssr='ssh hawkin@$r720ip'
 alias ssq='ssh hawkin@$Q6600ip'
 
 #git command aliase
-alias gic='git clone '
-alias gib='git branch'
-alias giba='git branch -a'
-alias gis='git status'
+alias gitc='git clone '
+alias gitb='git branch'
+alias gitba='git branch -a'
+alias gits='git status'
+alias gitp='git pull'
 #ftp 
 alias ftpln='ncftp -u hawkin -p sac 10.245.105.2 '
 alias ftpls='ncftp -u hawkin -p sac $mypcip'
@@ -42,13 +43,6 @@ alias bd=". bd -s "
 alias work='tmuxc worksession'
 alias rework='tmuxa worksession'
 #work folder change
-alias cj='cd ..'
-alias ch='cd /home/$USER/ '
-alias cw='cd /opt/$USER/ '
-alias cc='cd /opt/$USER/calix '
-alias cs='cd /opt/$USER/sac '
-alias co='cd /opt/$USER/opensource '
-alias ct='cd /opt/$USER/toolchain '
 #others
 alias fd='find ./ -name "*" | grep  '
 alias fda='find ./ -name "*" | xargs grep '
@@ -71,8 +65,7 @@ alias runsacpowerpc='source /home/$USER/$config_folder/.bash_powerpc_sac'
 alias xzc='xz -z '
 alias xzx='xz -d '
 
-alias apti='sudo apt-get install '
-alias editalias='vi /home/$USER/.bash_aliases'
+alias editalias='vi /home/$USER/ubuntu_config/bash_aliases'
 
 #data format
 alias binformat='/home/$USER/$config_folder/binformat.sh '
