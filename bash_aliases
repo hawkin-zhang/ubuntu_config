@@ -14,10 +14,10 @@ alias home='cd /opt/$USER'
 
 #ssh 
 
-alias sss='ssh -p 2226 hawkin@$serverip'
-alias sst='ssh hawkin@$t400ip'
-alias ssr='ssh hawkin@$r720ip'
-alias ssq='ssh hawkin@$Q6600ip'
+alias sshs='ssh -p 2226 hawkin@$serverip'
+alias ssht='ssh hawkin@$t400ip'
+alias sshr='ssh hawkin@$r720ip'
+alias sshq='ssh hawkin@$Q6600ip'
 
 #git command aliase
 alias gitc='git clone '
