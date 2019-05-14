@@ -11,14 +11,14 @@ alias ll='ls -alh'
 alias rs='source /home/$USER/.bashrc'
 alias ea='vi /home/$USER/.bash_aliases'
 alias home='cd /opt/$USER'
+alias b='cd ..'
 
 #ssh 
 
 alias sshs='ssh -p 2226 hawkin@$serverip'
 alias ssht='ssh hawkin@$t400ip'
 alias sshr='ssh hawkin@$r720ip'
-alias sshq='ssh hawkin@$Q6600ip'
-
+alias sshq='ssh hawkin@$Q6600ip' 
 #git command aliase
 alias gitc='git clone '
 alias gitb='git branch'
@@ -43,6 +43,10 @@ alias bd=". bd -s "
 alias work='tmuxc worksession'
 alias rework='tmuxa worksession'
 #work folder change
+alias openc='nautilus . &'
+alias openhome='nautilus ~ &'
+alias openf='nautilus '
+
 #others
 alias fd='find ./ -name "*" | grep  '
 alias fda='find ./ -name "*" | xargs grep '
@@ -66,7 +70,8 @@ alias xzc='xz -z '
 alias xzx='xz -d '
 
 alias editalias='vi /home/$USER/ubuntu_config/bash_aliases'
-
+#wine command
+alias sourceinsight='cd ~/.wine/drive_c/Program\ Files\ \(x86\)/Source\ Insight\ 3/'
 #data format
 alias binformat='/home/$USER/$config_folder/binformat.sh '
 alias hexformat='/home/$USER/$config_folder/hexformat.sh '
@@ -84,4 +89,5 @@ alias mm="make menuconfig"
 
 #cygwin
 
-
+#ide app start
+alias pycharm='sh /opt/hawkin/pycharm-community-2019.1.1/bin/pycharm.sh &'
