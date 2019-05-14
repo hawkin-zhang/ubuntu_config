@@ -8,10 +8,14 @@ export vps='23.27.112.197'
 export config_folder='ubuntu_config'
 
 alias ll='ls -alh'
-alias rs='source /home/$USER/.bashrc'
+alias rs='func() { cp /home/$USER/ubuntu_config/bash_aliases ~/.bash_aliase;source /home/$USER/.bashrc; }; func'
 alias ea='vi /home/$USER/.bash_aliases'
 alias home='cd /opt/$USER'
 alias b='cd ..'
+alias findc='func() { find . -name $1; }; func'
+alias findp='func() { find $1 -name $2;}; func'
+alias grepc='func() { grep -rn $1 .; }; func'
+alias grepp='func() { grep -rn $1 $2; }; func'
 
 #ssh 
 
