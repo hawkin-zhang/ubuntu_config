@@ -8,4 +8,4 @@
 # /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)
 # /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
 #
-/opt/hawkin 172.28.5.190(rw,sync,all_squash,no_subtree_check,anonuid=1000,anongid=1000) 10.137.148.224(rw,sync,all_squash,no_subtree_check,anonuid=1000,anongid=1000) 10.137.148.223(rw,sync,all_squash,no_subtree_check,anonuid=1000,anongid=1000)
+/opt/hawkin 172.28.5.190(rw,sync,all_squash,no_subtree_check,anonuid=1000,anongid=1000) 10.137.148.224(rw,sync,all_squash,no_subtree_check,anonuid=1000,anongid=1000) 10.137.148.223(rw,sync,all_squash,no_subtree_check,anonuid=1000,anongid=1000) 10.137.153.3(rw,sync,all_squash,no_subtree_check,anonuid=1000,anongid=1000)
