@@ -68,7 +68,7 @@ alias runarmv864='source /home/$USER/$config_folder/.bash_armv8_64'
 alias runforlink_imx6='source /home/$USER/$config_folder/.bash_forlink_imx6'
 alias rundrlimx6='source /home/$USER/$config_folder/.bash_drl600u'
 alias runsacpowerpc='source /home/$USER/$config_folder/.bash_powerpc_sac'
-alias runqt='soutce /home/$USER/ubuntu_config/.bash_qt_gcc4.5'
+alias runqt='source /home/$USER/ubuntu_config/.bash_qt_gcc4.5'
 
 alias xzc='xz -z '
 alias xzx='xz -d '
