@@ -5,6 +5,7 @@ export t400ip='10.137.148.223'
 export mypcip='10.137.148.220'
 export r720ip='172.28.5.190'
 export vps='23.27.112.197'
+export insperip='10.137.153.3'
 export config_folder='ubuntu_config'
 
 alias ll='ls -alh'
@@ -39,7 +40,7 @@ alias ftplv='ncftp -u hawkin -p hawkin $vps'
 alias nfsr='sudo mount -t nfs -rw $r720ip:/opt/hawkin /opt/hawkin/r720'
 alias nfst='sudo mount -t nfs -rw $t400ip:/opt/hawkin /opt/hawkin/t400'
 alias nfsq='sudo mount -t nfs -rw $Q6600ip:/opt/hawkin /opt/hawkin/q6600'
-
+alias nfsi='sudo mount -t nfs -rw $insperip:/opt/hawkin /opt/hawkin/insper'
 #god command
 alias tmuxc='tmux new -s '
 alias tmuxa='tmux attach-session -t '
