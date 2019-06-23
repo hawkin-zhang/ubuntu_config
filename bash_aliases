@@ -45,6 +45,8 @@ alias nfsi='sudo mount -t nfs -rw $insperip:/opt/hawkin /opt/hawkin/insper'
 alias tmuxc='tmux new -s '
 alias tmuxa='tmux attach-session -t '
 alias bd=". bd -s "
+alias newscreen='tmuxc '
+alias showscreen='tmuxa '
 alias work='tmuxc worksession'
 alias rework='tmuxa worksession'
 #work folder change
