@@ -30,6 +30,7 @@ alias gitb='git branch'
 alias gitba='git branch -a'
 alias gits='git status'
 alias gitp='git pull'
+alias giturl='git remote -v'
 #ftp 
 alias ftpln='ncftp -u hawkin -p sac 10.245.105.2 '
 alias ftpls='ncftp -u hawkin -p sac $mypcip'
