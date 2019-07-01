@@ -50,6 +50,7 @@ alias newscreen='tmuxc '
 alias showscreen='tmuxa '
 alias work='tmuxc worksession'
 alias rework='tmuxa worksession'
+alias winmount='sudo mount -t vboxsf win10 /opt/win10'
 #work folder change
 alias openc='nautilus . &'
 alias openhome='nautilus ~ &'
