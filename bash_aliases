@@ -52,6 +52,7 @@ alias work='tmuxc worksession'
 alias rework='tmuxa worksession'
 alias winmount='sudo mount -t vboxsf win10 /opt/win10'
 alias findcommand='apt-cache search '
+alias pullout='udisksctl power-off --block-device '
 #work folder change
 alias openc='nautilus . &'
 alias openhome='nautilus ~ &'
