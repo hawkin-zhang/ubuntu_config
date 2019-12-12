@@ -4,10 +4,9 @@ export Q6600ip='10.137.148.224'
 export t400ip='10.137.148.223'
 export mypcip='10.137.148.220'
 export r720ip='172.28.5.190'
-export vps='23.27.112.197'
-export insperip='10.137.153.3'
-export macbookip='10.137.148.225'
+export macbookip='10.137.148.230'
 export ghxip='10.137.149.220'
+export conflueceip='172.28.5.180'
 export config_folder='ubuntu_config'
 
 alias ll='ls -alh'
@@ -19,7 +18,7 @@ alias findc='func() { find . -name $1; }; func'
 alias findp='func() { find $1 -name $2;}; func'
 alias grepc='func() { grep -rn $1 .; }; func'
 alias grepp='func() { grep -rn $1 $2; }; func'
-
+alias countcode='find . -name "*.c" | xargs wc -l'
 #ssh 
 
 alias sshs='ssh -p 2226 hawkin@$serverip'
@@ -27,6 +26,8 @@ alias ssht='ssh hawkin@$t400ip'
 alias sshr='ssh hawkin@$r720ip'
 alias sshq='ssh hawkin@$Q6600ip' 
 alias sshg='ssh hawkin@$ghxip'
+alias sshc='ssh hawkin@$confluenceip'
+
 #git command aliase
 alias gitc='git clone '
 alias gitb='git branch'
@@ -45,7 +46,6 @@ alias ftplm='ncftp -u hawkin -p sac -P 2121 $macbookip'
 alias nfsr='sudo mount -t nfs -rw $r720ip:/opt/hawkin /opt/hawkin/r720'
 alias nfst='sudo mount -t nfs -rw $t400ip:/opt/hawkin /opt/hawkin/t400'
 alias nfsq='sudo mount -t nfs -rw $Q6600ip:/opt/hawkin /opt/hawkin/q6600'
-alias nfsi='sudo mount -t nfs -rw $insperip:/opt/hawkin /opt/hawkin/insper'
 #god command
 alias tmuxc='tmux new -s '
 alias tmuxa='tmux attach-session -t '
