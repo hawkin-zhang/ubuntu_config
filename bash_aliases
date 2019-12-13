@@ -8,6 +8,8 @@ export macbookip='10.137.148.230'
 export ghxip='10.137.149.220'
 export conflueceip='172.28.5.180'
 export config_folder='ubuntu_config'
+export build_output='/opt/hawkin/build'
+export sac_codepath='/opt/hawkin/sac'
 
 alias ll='ls -alh'
 alias rs='func() { cp /home/$USER/ubuntu_config/bash_aliases ~/.bash_aliases;source /home/$USER/.bashrc; }; func'
@@ -57,6 +59,14 @@ alias rework='tmuxa worksession'
 alias winmount='sudo mount -t vboxsf win10 /opt/win10'
 alias findcommand='apt-cache search '
 alias pullout='udisksctl power-off --block-device '
+#uboot/kernel build
+alias npshmiuboot='func() { make distclean -C $build_output/nps-hmi/u-boot;  make nps-hmi_defconfig -j4 -C $sac_codepath/nps-hmi/fsl-imx6q-uboot O=$build_output/nps-hmi/u-boot;make -j4 -C $sac_codepath/nps-hmi/fsl-imx6q-uboot O=$build_output/nps-hmi/u-boot; }; func'
+alias npshmikernel='func() { make distclean -C $build_output/nps-hmi/linux;  make sac_imx6q_defconfig -j4 -C $sac_codepath/nps-hmi/linux O=$build_output/nps-hmi/linux;make -j4 -C $sac_codepath/nps-hmi/linux O=$build_output/nps-hmi/linux;make dtbs -C  $sac_codepath/nps-hmi/linux O=$build_output/nps-hmi/linux;}; func'
+alias ls1046uboot=''
+alias ls1046kernel=''
+alias p1020uboot=''
+alias p1020kernel=''
+
 #work folder change
 alias openc='nautilus . &'
 alias openhome='nautilus ~ &'
