@@ -1,14 +1,14 @@
 #full additional package list
 additonal_package_type="additional_packages_ubunturfs additional_packages_tool additonal_packages_32 additonal_packages_yocto additonal_packages_python  funny_command"
 funny_command="sl cmatrix fortune cowsay  "
-additional_packages_ubunturfs="git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf libssl-dev openssl python-pip flex bison bc qemu-utils libncurses5-dev python-crypto libpcap-dev binfmt-support qemu-system-common qemu-user-static debootstrap git-gui gitk unrar ntfs-3g lzop valgrind sshfs squashfs devmem2 lshw lsscsi lsof lm-sensors arptables arp-scan bindfs bind9 bluez bluez-tools bluez-tests can-utils fastd iftop iperf iproute iproute2 netstat-nat ntp ntpdate ntpstat openssh-server openssh-client wpasupplicant cputool irqbalance uuid cgroup-tools cgroupfs-mount cgroup-bin libcsp-dev kpartx nvme-cli rng-tools arp-scan keepalived vnstat util-linux"
-additional_packages_tool="libssh-dev u-boot-tools  lrzsz htop tree libmount-dev  device-tree-compiler   libncurses5-dev libncursesw5-dev  sysstat  kmod linux-tools-common lsb-core kmod liblz4-tool libpam-cracklib sysstat nfs-kernel-server  nfs-common tftp tftpd xinetd curl openssh-server ca-certificates postfix netsniff-ng dos2unix sysstat smartmontools memtester ncftp psmisc stressapptest stress stress-ng iptraf sysstat iftop vmstat apt-file xfsprogs" 
+additional_packages_ubunturfs="git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf libssl-dev openssl python-pip flex bison bc qemu-utils libncurses5-dev python-crypto libpcap-dev binfmt-support qemu-system-common qemu-user-static debootstrap git-gui gitk unrar ntfs-3g lzop valgrind sshfs devmem2 lshw lsscsi lsof lm-sensors arptables arp-scan bindfs bind9 bluez bluez-tools bluez-tests can-utils fastd iftop iperf  iproute2 netstat-nat ntp ntpdate ntpstat openssh-server openssh-client wpasupplicant cputool irqbalance uuid cgroup-tools cgroupfs-mount  kpartx nvme-cli rng-tools arp-scan keepalived vnstat util-linux"
+additional_packages_tool="libssh-dev u-boot-tools  lrzsz htop tree libmount-dev  device-tree-compiler   libncurses5-dev libncursesw5-dev  sysstat  kmod linux-tools-common lsb-core kmod liblz4-tool libpam-cracklib sysstat nfs-kernel-server  nfs-common tftp tftpd xinetd curl openssh-server ca-certificates postfix netsniff-ng dos2unix sysstat smartmontools memtester ncftp psmisc stressapptest stress stress-ng iptraf sysstat iftop  apt-file xfsprogs" 
 
-additonal_packages_32=" libssl-dev libsepol1-dev libpam0g-dev libmount-dev libffi-dev python-matplotlib  autoconf bzr mercurial-buildpackage mercurial libssh-dev lib32ncurses5 lib32z1"
+additonal_packages_32=" libssl-dev libsepol1-dev libpam0g-dev libmount-dev libffi-dev python-matplotlib  autoconf bzr mercurial-buildpackage mercurial libssh-dev lib32z1"
 
-additonal_packages_yocto="ubuntu-minimal ubuntu-standard patch vim-common sed wget subversion git-core  unzip  gawk  diffstat make gcc build-essential xz-utils g++  autoconf automake groff libtool  libncurses5-dev cvs  curl  u-boot-tools uboot-mkimage"
+additonal_packages_yocto="ubuntu-minimal ubuntu-standard patch vim-common sed wget subversion unzip  gawk  diffstat make gcc build-essential xz-utils g++  autoconf automake groff libtool  libncurses5-dev cvs  curl  u-boot-tools "
 
-additonal_packages_python="pip pip3 python-numpy python-scipy  python-matplotlib python3-numpy  python3-scipy  python3-matplotlib python-pysqlite2"
+additonal_packages_python="python-numpy python-scipy  python-matplotlib python3-numpy  python3-scipy  python3-matplotlib python-pysqlite2"
 
 additonal_packages_opengl="xserver-xorg-core xserver-xorg-input-all xserver-xorg-video-fbdev build-essential libgl1-mesa-dev   libglu1-mesa-dev freeglut3-dev lzop libopenjfx-java"
 
