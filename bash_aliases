@@ -11,6 +11,7 @@ export dellip='10.137.148.225'
 export config_folder='ubuntu_config'
 export build_output='/opt/hawkin/build'
 export sac_codepath='/opt/hawkin/sac'
+export vpsip='18.141.139.212'
 
 alias ll='ls -alh'
 alias rs='func() { cp /home/$USER/ubuntu_config/bash_aliases ~/.bash_aliases;source /home/$USER/.bashrc; }; func'
@@ -31,6 +32,7 @@ alias sshq='ssh hawkin@$Q6600ip'
 alias sshg='ssh hawkin@$ghxip'
 alias sshc='ssh hawkin@$confluenceip'
 alias sshd='ssh hawkin@$dellip'
+alias sshvps='ssh root@$vpsip'
 
 #git command aliase
 alias gitc='git clone '
