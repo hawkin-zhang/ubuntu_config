@@ -71,7 +71,7 @@ alias ls1046uboot=''
 alias ls1046kernel=''
 alias p1020uboot=''
 alias p1020kernel=''
-
+alias settestip='sudo ifconfig enp2s0:0 192.168.0.1/24;sudo ifconfig enp2s0:1 192.168.1.1/24;sudo ifconfig enp2s0:2 192.168.2.1/24;sudo ifconfig enp2s0:3 192.168.3.1/24;sudo ifconfig enp2s0:4 192.168.4.1/24; sudo ifconfig enp2s0:5 192.168.5.1/24;sudo ifconfig enp2s0:6 192.168.6.1/24;sudo ifconfig enp2s0:7 192.168.7.1/24;sudo ifconfig enp2s0:137 192.168.137.1/24'
 #work folder change
 alias openc='nautilus . &'
 alias openhome='nautilus ~ &'
