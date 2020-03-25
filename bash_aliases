@@ -53,6 +53,7 @@ alias ftpld='ncftp -u hawkin -p sac $dellip'
 alias nfsr='sudo mount -t nfs -rw $r720ip:/opt/hawkin /opt/hawkin/r720'
 alias nfst='sudo mount -t nfs -rw $t400ip:/opt/hawkin /opt/hawkin/t400'
 alias nfsq='sudo mount -t nfs -rw $Q6600ip:/opt/hawkin /opt/hawkin/q6600'
+alias nfsd='sudo mount -t nfs -rw $dellip:/opt/hawkin /opt/hawkin/dell-3060'
 #god command
 alias tmuxc='tmux new -s '
 alias tmuxa='tmux attach-session -t '
