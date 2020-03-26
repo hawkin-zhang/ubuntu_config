@@ -19,6 +19,7 @@ alias findp='func() { find $1 -name $2;}; func'
 alias grepc='func() { grep -rn $1 .; }; func'
 alias grepp='func() { grep -rn $1 $2; }; func'
 alias countcode='find . -name "*.c" | xargs wc -l'
+alias show='func() { tree -L $1 .; }; func'
 #ssh 
 alias ssht='ssh hawkin@$t400ip'
 alias sshr='ssh hawkin@$r720ip'
