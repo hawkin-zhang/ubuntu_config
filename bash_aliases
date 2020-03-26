@@ -27,7 +27,7 @@ alias sshq='ssh hawkin@$Q6600ip'
 alias sshc='ssh hawkin@$confluenceip'
 alias sshd='ssh hawkin@$dellip'
 alias sshvps='ssh root@$vpsip'
-alias sshpara='ssh hawkin@$paralles_Ubuntu'
+alias sshpara='ssh hawkin@$parallels_ubuntu'
 #git command aliase
 alias gitc='git clone '
 alias gitb='git branch'
