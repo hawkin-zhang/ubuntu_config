@@ -29,7 +29,7 @@ alias sshc='ssh hawkin@$confluenceip'
 alias sshd='ssh hawkin@$dellip'
 alias sshvps='ssh root@$vpsip'
 alias sshpara='ssh hawkin@$parallels_ubuntu'
-alias ftpl790='ncftp -u hawkin -p sac $dell790'
+alias ssh790='ssh hawkin@$dell790'
 #git command aliase
 alias gitc='git clone '
 alias gitb='git branch'
