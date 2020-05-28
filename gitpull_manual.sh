@@ -18,7 +18,7 @@ for type in ${folder_type}; do
 	for path in $folder_type; do
 		cd $path
 		echo update $path ...>> $script_path/gitpull.log
-		git pull
+		git pull &
 	done
 done
 echo "update gitcode finished"
