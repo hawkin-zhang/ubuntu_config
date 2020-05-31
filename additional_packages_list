@@ -8,7 +8,7 @@ additional_packages_tool="libssh-dev u-boot-tools  lrzsz htop tree libmount-dev 
 
 additonal_packages_32=" libssl-dev libsepol1-dev libpam0g-dev libmount-dev libffi-dev python-matplotlib  autoconf bzr mercurial-buildpackage mercurial libssh-dev lib32z1"
 
-additonal_packages_yocto="ubuntu-minimal ubuntu-standard patch vim-common sed wget subversion unzip  gawk  diffstat make gcc build-essential   autoconf automake groff libtool  libncurses5-dev cvs  curl  "
+additonal_packages_yocto="ubuntu-minimal ubuntu-standard patch vim-common sed wget subversion unzip  gawk  diffstat make gcc build-essential   autoconf automake groff libtool  libncurses5-dev cvs  "
 
 additonal_packages_python="python-numpy python-scipy  python-matplotlib python3-numpy  python3-scipy  python3-matplotlib python-pysqlite2"
 
