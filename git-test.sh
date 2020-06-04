@@ -2,6 +2,7 @@
 gitcommit-id1
 gitcommit-id2
 gitcommit-id4
+gitcommit-id3
 #d2b.sh: convert a decimal number to a binary number
 #Usage: ./d2b.sh decimal_number
 BAD_ARGS=65
