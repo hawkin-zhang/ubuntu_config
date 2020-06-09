@@ -1,12 +1,12 @@
-folder_type=" opensource nxp_imx6 nxp_imx8 nxp_lsdk  nxp_openil "
+project_list=" opensource nxp_imx6 nxp_imx8 nxp_lsdk  nxp_openil "
 
-opensource=" /opt/hawkin/opensource/busybox /opt/hawkin/opensource/contiki /opt/hawkin/opensource/coremark-pro /opt/hawkin/opensource/dpdk /opt/hawkin/opensource/linux-pam /opt/hawkin/opensource/linux-stable /opt/hawkin/opensource/linux-stable-rt /opt/hawkin/opensource/linux-xlnx /opt/hawkin/opensource/oe-core /opt/hawkin/opensource/openssl /opt/hawkin/opensource/ovs /opt/hawkin/opensource/u-boot /opt/hawkin/opensource/u-boot-xlnx "
+opensource="/opt/hawkin/opensource"
 
-nxp_imx6="/opt/hawkin/opensource/nxp/imx6/linux-imx /opt/hawkin/opensource/nxp/imx6/uboot-imx"
+nxp_imx6="/opt/hawkin/opensource/nxp/imx6"
 
-nxp_imx8="/opt/hawkin/opensource/nxp/imx8/linux-imx /opt/hawkin/opensource/nxp/imx8/uboot-imx"
+nxp_imx8="/opt/hawkin/opensource/nxp/imx8"
 
-nxp_lsdk="/opt/hawkin/opensource/nxp/lsdk/atf /opt/hawkin/opensource/nxp/lsdk/cryptodev-linux /opt/hawkin/opensource/nxp/lsdk/ddr-phy-binary /opt/hawkin/opensource/nxp/lsdk/eiq /opt/hawkin/opensource/nxp/lsdk/linux /opt/hawkin/opensource/nxp/lsdk/optee_client /opt/hawkin/opensource/nxp/lsdk/optee_test /opt/hawkin/opensource/nxp/lsdk/pktgen-dpdk /opt/hawkin/opensource/nxp/lsdk/qbman_userspace /opt/hawkin/opensource/nxp/lsdk/qoriq-eds-bootstrap /opt/hawkin/opensource/nxp/lsdk/qoriq-eds-puppet /opt/hawkin/opensource/nxp/lsdk/restool /opt/hawkin/opensource/nxp/lsdk/tsntool /opt/hawkin/opensource/nxp/lsdk/uefi /opt/hawkin/opensource/nxp/lsdk/ceetm /opt/hawkin/opensource/nxp/lsdk/cst /opt/hawkin/opensource/nxp/lsdk/dpdk /opt/hawkin/opensource/nxp/lsdk/eth-config /opt/hawkin/opensource/nxp/lsdk/openssl /opt/hawkin/opensource/nxp/lsdk/optee_os /opt/hawkin/opensource/nxp/lsdk/ovs-dpdk /opt/hawkin/opensource/nxp/lsdk/ptpd /opt/hawkin/opensource/nxp/lsdk/qoriq-edgescale-eds /opt/hawkin/opensource/nxp/lsdk/qoriq-eds-kubelet /opt/hawkin/opensource/nxp/lsdk/rcw /opt/hawkin/opensource/nxp/lsdk/secure_obj /opt/hawkin/opensource/nxp/lsdk/u-boot "
+nxp_lsdk="/opt/hawkin/opensource/nxp/lsdk"
 
-
+nxp_openil="/opt/hawkin/opensource/nxp/openil"
 
