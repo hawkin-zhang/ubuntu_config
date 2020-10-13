@@ -1,8 +1,6 @@
-project_list=" opensource nxp_imx6 nxp_imx8 nxp_lsdk  nxp_openil "
+project_list=" opensource  nxp_imx8 nxp_lsdk  nxp_openil "
 
 opensource="/opt/hawkin/opensource"
-
-nxp_imx6="/opt/hawkin/opensource/nxp/imx6"
 
 nxp_imx8="/opt/hawkin/opensource/nxp/imx8"
 

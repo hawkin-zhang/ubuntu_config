@@ -25,7 +25,7 @@ for project_name in ${project_list}; do
 			cd $project_path/$folder
 			echo update $project_path/$folder
 			echo update $project_path/$folder ...>> $script_path/gitpull.log
-			git pull &
+			git pull 
 
 		done
 	done
