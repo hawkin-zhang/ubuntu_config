@@ -61,7 +61,6 @@ alias newscreen='tmuxc '
 alias showscreen='tmuxa '
 alias work='tmuxc worksession'
 alias rework='tmuxa worksession'
-alias winmount='sudo mount -t vboxsf win10 /opt/win10'
 alias findcommand='apt-cache search '
 alias pullout='udisksctl power-off --block-device '
 alias settestip='sudo ifconfig $ethname:0 192.168.0.1/24;sudo ifconfig $ethname:1 192.168.1.1/24;sudo ifconfig $ethname:2 192.168.2.1/24;sudo ifconfig $ethname:3 192.168.3.1/24;sudo ifconfig $ethname:4 192.168.4.1/24; sudo ifconfig $ethname:5 192.168.5.1/24;sudo ifconfig $ethname:6 192.168.6.1/24;sudo ifconfig $ethname:7 192.168.7.1/24;sudo ifconfig $ethname:137 192.168.137.1/24'
@@ -114,3 +113,4 @@ alias mm="make menuconfig"
 
 #ide app start
 alias pycharm='sh /opt/hawkin/pycharm-community-2019.1.1/bin/pycharm.sh &'
+export PIP_DEFAULT_TIMEOUT=100
