@@ -1,0 +1,6 @@
+#!/bin/bash 
+export ARCH=x86
+export CC=i686-linux-gcc
+export CROSS_COMPILE=i686-linux-
+export PATH=/opt/hawkin/toolchain/x86-i686/x86-i686--glibc--8.2/x86-i686--glibc--bleeding-edge-2018.11-1/bin/:$PATH
+
