@@ -1,0 +1,6 @@
+#!/bin/bash 
+export ARCH=arm
+export LOADADDR=0x20000000
+export CROSS_COMPILE=arm-linux-
+export PATH=/opt/hawkin/toolchain/arm-linux-gnueabiel/arm_linux_4.8_nuvoton/bin/:$PATH
+
