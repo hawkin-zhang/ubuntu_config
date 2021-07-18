@@ -8,3 +8,6 @@ nxp_lsdk="/opt/hawkin/opensource/nxp/lsdk"
 
 nxp_openil="/opt/hawkin/opensource/nxp/openil"
 
+xenomai="/opt/hawkin/opensource/xenomai"
+
+nuvoton="/opt/hawkin/opensource/nuvoton"
