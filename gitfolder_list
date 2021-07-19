@@ -1,4 +1,4 @@
-project_list=" opensource  nxp_imx8 nxp_lsdk  nxp_openil "
+project_list=" opensource  nxp_imx8 nxp_lsdk  nxp_openil  xenomai nuvoton"
 
 opensource="/opt/hawkin/opensource"
 
@@ -8,3 +8,6 @@ nxp_lsdk="/opt/hawkin/opensource/nxp/lsdk"
 
 nxp_openil="/opt/hawkin/opensource/nxp/openil"
 
+xenomai="/opt/hawkin/opensource/xenomai"
+
+nuvoton="/opt/hawkin/opensource/nuvoton"
