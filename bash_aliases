@@ -117,3 +117,4 @@ alias pycharm='sh /opt/hawkin/pycharm-community-2019.1.1/bin/pycharm.sh &'
 export PIP_DEFAULT_TIMEOUT=100
 # set bat default color theme
 export BAT_THEME="TwoDark"
+export PATH=~/bin:$PATH
