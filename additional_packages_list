@@ -3,7 +3,7 @@ additonal_package_type=" funny_command additional_packages_common additional_pac
 
 funny_command="sl cmatrix fortune cowsay  "
 
-additional_packages_common="git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf libssl-dev openssl  flex bison bc  libncurses6-dev  libpcap-dev binfmt-support  debootstrap git-gui gitk   lzop valgrind    lsof     fastd iftop iperf  iproute2    cputool      rng-tools  keepalived vnstat util-linux zfsutils  zstd rt-tests strace  mtools  dfu-util fmtools  kbd  rng-tools wipe ipsec-tools linuxptp  ptpd squid   tmux nut  perl golang   g++    pigz lstopo exuberant-ctags   live-build  busybox-static    vim-common tree htop psmisc postfix sed wget gawk subversion patch  diffstat groff libtool"
+additional_packages_common="git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf   openssl  flex bison bc  libncurses6-dev  libpcap-dev binfmt-support  debootstrap git-gui gitk   lzop valgrind    lsof     fastd iftop iperf  iproute2    cputool      rng-tools  keepalived vnstat util-linux zfsutils  zstd rt-tests strace  mtools  dfu-util fmtools  kbd  rng-tools wipe ipsec-tools linuxptp  ptpd squid   tmux nut  perl golang   g++    pigz lstopo exuberant-ctags   live-build  busybox-static    vim-common tree htop psmisc postfix sed wget gawk subversion patch  diffstat groff libtool"
 
 additional_packages_compress=" unzip unrar ntfs-3g squashfs-tools xz-utils sshfs dos2unix  liblz4-tool libpam-cracklib cifs-utils xfsprogs "
 
@@ -13,9 +13,9 @@ additional_packages_hardware="lm-sensors devmem2 memtester lshw lsscsi bluez blu
 
 additional_packages_kvm="qemu-system-common qemu-user-static qemu-utils cgroup-tools cgroupfs-mount "
 
-additional_packages_ubuntu_kernel="dkms dwarves kernel-wedge dctrl-tools zstd dkms debhelper "
+additional_packages_ubuntu_kernel="dkms dwarves kernel-wedge dctrl-tools zstd   debhelper libncurses-dev libelf-dev libudev-dev libpci-dev libiberty-dev"
 
-additional_packages_dpdk='gcc-multilib libfuse-dev  linux-source libssl-dev llvm-dev autoconf libtool libpciaccess-dev libcunit1-dev libaio-dev "
+additional_packages_dpdk='gcc-multilib libfuse-dev  linux-source libssl-dev llvm-dev libtool libpciaccess-dev libcunit1-dev libaio-dev "
 
 additional_packages_python2="python-crypto  python-subprocess32 python-git python-pip  python-matplotlib python-numpy python-scipy"
 
@@ -23,7 +23,5 @@ additional_packages_python3="python3-numpy  python3-scipy  python3-matplotlib"
 
 additional_packages_lib="libssh-dev libmount-dev libncurses5-dev libncursesw5-dev lsb-core ca-certificates  libsysfs2 libsysfs-dev libarchive-zip-perl" 
 
-additonal_packages_32=" libssl-dev libsepol1-dev libpam0g-dev libmount-dev libffi-dev   autoconf bzr mercurial-buildpackage mercurial   lib32z1"
+additonal_packages_32="   libsepol1-dev libpam0g-dev libmount-dev libffi-dev  bzr mercurial-buildpackage mercurial   lib32z1"
  
-
-
