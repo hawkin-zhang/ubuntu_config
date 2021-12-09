@@ -1,21 +1,29 @@
 #full additional package list
-additonal_package_type="additional_packages_ubunturfs additional_packages_tool additonal_packages_32 additonal_packages_yocto additonal_packages_python  funny_command addtional_packages_dpdk additional_packages_perf" 
+additonal_package_type=" funny_command additional_packages_common additional_packages_compress additional_packages_network additional_packages_hardware additional_packages_kvm  additional_packages_ubuntu_kernel additional_packages_dpdk  additional_packages_python2 additional_packages_python3 additional_packages_lib additonal_packages_32 " 
+
 funny_command="sl cmatrix fortune cowsay  "
 
-additional_packages_ubunturfs="git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf libssl-dev openssl python-pip flex bison bc qemu-utils libncurses6-dev python-crypto  python-subprocess32 python-git libpcap-dev binfmt-support qemu-system-common qemu-user-static debootstrap git-gui gitk unrar ntfs-3g lzop valgrind sshfs devmem2 lshw lsscsi lsof lm-sensors arptables arp-scan bindfs bind9 bluez bluez-tools bluez-tests can-utils fastd iftop iperf  iproute2 netstat-nat ntp ntpdate ntpstat openssh-server openssh-client wpasupplicant cputool irqbalance uuid cgroup-tools cgroupfs-mount  kpartx nvme-cli rng-tools arp-scan keepalived vnstat util-linux zfsutils mtd-utils zstd rt-tests strace mmc-utils mtools squashfs-tools dfu-util fmtools hwdata kbd minicom rng-tools wipe ipsec-tools linuxptp nmap ptpd squid  wireless-tools tmux nut i2c-tools perl golang udisks2 xz-utils g++ cifs-utils  vlan pigz lstopo exuberant-ctags cargo libarchive-zip-perl live-build hostapd busybox-static python-crypto net-tools ethtool memtester ncftp dkms dwarves kernel-wedge dctrl-tools zstd dkms debhelper"
+additional_packages_common="git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf libssl-dev openssl  flex bison bc  libncurses6-dev  libpcap-dev binfmt-support  debootstrap git-gui gitk   lzop valgrind    lsof     fastd iftop iperf  iproute2    cputool      rng-tools  keepalived vnstat util-linux zfsutils  zstd rt-tests strace  mtools  dfu-util fmtools  kbd  rng-tools wipe ipsec-tools linuxptp  ptpd squid   tmux nut  perl golang   g++    pigz lstopo exuberant-ctags   live-build  busybox-static    vim-common tree htop psmisc postfix sed wget gawk subversion patch  diffstat groff libtool"
+
+additional_packages_compress=" unzip unrar ntfs-3g squashfs-tools xz-utils sshfs dos2unix  liblz4-tool libpam-cracklib cifs-utils xfsprogs "
+
+additional_packages_network="wpasupplicant arptables arp-scan bindfs netstat-nat ncftp nmap vlan  nfs-kernel-server  nfs-common netsniff-ng stress stress-ng ssh tftp tftpd xinetd curl iptraf net-tools ethtool "
+
+additional_packages_hardware="lm-sensors devmem2 memtester lshw lsscsi bluez bluez-tools bluez-tests can-utils ntp ntpdate ntpstat openssh-server openssh-client irqbalance i2c-tools wireless-tools minicom hwdata mmc-utils uuid kpartx nvme-cli mtd-utils smartmontools lrzsz udisks2 hostapd "
+
+additional_packages_kvm="qemu-system-common qemu-user-static qemu-utils cgroup-tools cgroupfs-mount "
+
+additional_packages_ubuntu_kernel="dkms dwarves kernel-wedge dctrl-tools zstd dkms debhelper "
 
 additional_packages_dpdk='gcc-multilib libfuse-dev  linux-source libssl-dev llvm-dev autoconf libtool libpciaccess-dev libcunit1-dev libaio-dev "
 
-additional_packages_tool="libssh-dev u-boot-tools  lrzsz htop tree libmount-dev  device-tree-compiler   libncurses5-dev libncursesw5-dev  sysstat  kmod linux-tools-common lsb-core kmod liblz4-tool libpam-cracklib sysstat nfs-kernel-server  nfs-common tftp tftpd xinetd curl openssh-server ca-certificates postfix netsniff-ng dos2unix sysstat smartmontools memtester ncftp psmisc  stress stress-ng iptraf sysstat iftop  apt-file xfsprogs libsysfs2 libsysfs-dev" 
+additional_packages_python2="python-crypto  python-subprocess32 python-git python-pip  python-matplotlib python-numpy python-scipy"
 
-additonal_packages_32=" libssl-dev libsepol1-dev libpam0g-dev libmount-dev libffi-dev python-matplotlib  autoconf bzr mercurial-buildpackage mercurial libssh-dev lib32z1"
+additional_packages_python3="python3-numpy  python3-scipy  python3-matplotlib"
 
-additonal_packages_yocto="ubuntu-minimal ubuntu-standard patch vim-common sed wget subversion unzip  gawk  diffstat make gcc build-essential   autoconf automake groff libtool  libncurses5-dev cvs  "
+additional_packages_lib="libssh-dev libmount-dev libncurses5-dev libncursesw5-dev lsb-core ca-certificates  libsysfs2 libsysfs-dev libarchive-zip-perl" 
 
-additonal_packages_python="python-numpy python-scipy python-crypto  python-matplotlib python3-numpy  python3-scipy  python3-matplotlib python-pysqlite2"
-
-additonal_packages_opengl="xserver-xorg-core xserver-xorg-input-all xserver-xorg-video-fbdev build-essential libgl1-mesa-dev   libglu1-mesa-dev freeglut3-dev lzop libopenjfx-java"
-additonal_packages_perf="linux-tools-common linux-tools-"$(uname -r)" linux-cloud-tools-"$(uname -r)" linux-tools-generic linux-cloud-tools-generic"
-
+additonal_packages_32=" libssl-dev libsepol1-dev libpam0g-dev libmount-dev libffi-dev   autoconf bzr mercurial-buildpackage mercurial   lib32z1"
+ 
 
 
