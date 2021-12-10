@@ -13,7 +13,7 @@ additional_packages_hardware="lm-sensors devmem2 memtester lshw lsscsi bluez blu
 
 additional_packages_kvm="qemu-system-common qemu-user-static qemu-utils cgroup-tools cgroupfs-mount "
 
-additional_packages_ubuntu_kernel="dkms dwarves kernel-wedge dctrl-tools zstd   debhelper libncurses-dev libelf-dev libudev-dev libpci-dev libiberty-dev"
+additional_packages_ubuntu_kernel="dkms dwarves kernel-wedge dctrl-tools zstd   debhelper libncurses-dev libelf-dev libudev-dev libpci-dev libiberty-dev kernel-package"
 
 additional_packages_dpdk='gcc-multilib libfuse-dev  linux-source libssl-dev llvm-dev libtool libpciaccess-dev libcunit1-dev libaio-dev "
 
