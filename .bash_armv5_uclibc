@@ -1,5 +1,5 @@
 #!/bin/bash 
 export ARCH=arm
 export CROSS_COMPILE=arm-linux-
-export PATH=/opt/hawkin/toolchain/armv5-linux-uclibc/arm_linux_4.8_nuvoton/bin/:$PATH
+export PATH=/opt/hawkin/toolchain/armv5-linux-uclibc/armv5-eabi-uclibc-7.3.0/bin/:$PATH
 

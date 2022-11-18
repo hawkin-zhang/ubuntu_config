@@ -72,8 +72,8 @@ alias openhome='nautilus ~ &'
 alias openf='nautilus '
 
 #others
-alias fd='find ./ -name "*" | grep  '
-alias fda='find ./ -name "*" | xargs grep '
+#alias fd='find ./ -name "*" | grep  '
+#alias fda='find ./ -name "*" | xargs grep '
 
 
 alias fumount='sudo umount '
@@ -90,6 +90,7 @@ alias rundrlimx6='source /home/$USER/$config_folder/.bash_drl600u'
 alias runsacpowerpc='source /home/$USER/$config_folder/.bash_powerpc_sac'
 alias runqt='source /home/$USER/ubuntu_config/.bash_qt_gcc4.5'
 alias runnuc980='source /home/$USER/$config_folder/.bash_armv5_uclibc'
+alias runt3='source /home/$USER/ubuntu_config/.bash_t3'
 
 alias xzc='xz -z '
 alias xzx='xz -d '
