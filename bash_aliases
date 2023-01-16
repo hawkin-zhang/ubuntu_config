@@ -11,6 +11,7 @@ export i78600k='10.0.0.201'
 export ethname='enp2s0'
 export sshvirtualboxport=2222
 export parallels_ubuntu='10.211.55.18'
+export platform_server='172.28.96.42'
 
 alias ll='ls -alh'
 alias rs='func() { cp /home/$USER/ubuntu_config/bash_aliases ~/.bash_aliases;source /home/$USER/.bashrc; }; func'
@@ -35,6 +36,7 @@ alias sshghxvps='ssh -p $sshvirtualboxport hawkin@$ghxvps'
 alias sshpara='ssh hawkin@$parallels_ubuntu'
 alias ssh790='ssh hawkin@$dell790'
 alias sshk='ssh hawkin@$i78600k'
+alias sshp="ssh zhj@$platform_server"
 #git command aliase
 alias gitc='git clone '
 alias gitb='git branch'
