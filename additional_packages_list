@@ -3,7 +3,7 @@ additonal_package_type=" funny_command additional_packages_common additional_pac
 
 funny_command="sl cmatrix fortune cowsay  "
 
-additional_packages_common="git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf   openssl  flex bison bc  libncurses6-dev  libpcap-dev binfmt-support  debootstrap git-gui gitk   lzop valgrind    lsof     fastd iftop iperf  iproute2    cputool      rng-tools  keepalived vnstat util-linux zfsutils  zstd rt-tests strace  mtools  dfu-util fmtools  kbd  rng-tools wipe ipsec-tools linuxptp  ptpd squid   tmux nut  perl golang   g++    pigz lstopo exuberant-ctags   live-build  busybox-static    vim-common tree htop psmisc postfix sed wget gawk subversion patch  diffstat groff libtool"
+additional_packages_common="ca-certificates gnupg lsb-release git u-boot-tools device-tree-compiler autoconf automake dh-autoreconf   openssl  flex bison bc  libncurses6-dev  libpcap-dev binfmt-support  debootstrap git-gui gitk   lzop valgrind    lsof     fastd iftop iperf  iproute2    cputool      rng-tools  keepalived vnstat util-linux zfsutils  zstd rt-tests strace  mtools  dfu-util fmtools  kbd  rng-tools wipe ipsec-tools linuxptp  ptpd squid   tmux nut  perl golang   g++    pigz lstopo exuberant-ctags   live-build  busybox-static    vim-common tree htop psmisc postfix sed wget gawk subversion patch  diffstat groff libtool"
 
 additional_packages_compress=" unzip unrar ntfs-3g squashfs-tools xz-utils sshfs dos2unix  liblz4-tool libpam-cracklib cifs-utils xfsprogs "
 
